@@ -8,6 +8,7 @@
 
 ## ethPM Developer Guide
 
+* [ethPM & Remix IDE](ethpm-developer-guide/ethpm-and-remix-ide.md)
 * [Getting Started with ethPM CLI](ethpm-developer-guide/install-a-package.md)
 * [ethPM & Etherscan Verified Contracts](ethpm-developer-guide/ethpm-and-etherscan-verified-contracts.md)
 * [ethPM Library Support](ethpm-developer-guide/ethpm-core-libraries.md)
