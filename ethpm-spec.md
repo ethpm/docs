@@ -6,7 +6,7 @@ The formal definition of the ethPM-Spec can be found at its [documentation](http
 
 #### "package\_name" \(required\)
 
-The name of your ethPM package. Must conform to regex: `^[a-zA-Z][a-zA-Z0-9_]{0,255}$`
+The name of your ethPM package. Must conform to regex: `^[a-z][a-z0-9_-]{0,255}$`
 
 * Valid package names
   * `wallet`
