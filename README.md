@@ -1,6 +1,6 @@
 # Introduction
 
-ethPM is the immutable package manager to consume, distribute, or manage any smart contract system. 
+ethPM is the immutable package manager to consume, distribute, or manage any EVM smart contract system. 
 
 An ethPM package represents the _**idea**_ of a smart contract; from a single smart contract file, to a deployed contract instance, to a complex system of smart contracts, and everything in between.
 
@@ -53,7 +53,7 @@ Of course, this manifest does not represent a very useful package, so it is up t
 
 Manifests may live on disk, but are intended to be produced and consumed programmatically and uploaded directly to a content-addressable storage network \(e.g. [IPFS](https://ipfs.io/)\).
 
-#### ethPM's history.
+#### ethPM's history
 
-ethPM started out as the brainchild of Tim Coulter and Piper Merriam. Since its inceptions, it has undergone a breaking update from v1 to v2 in 2018. Currently, v2 tooling and support across libraries is still under development. If you would like to help contribute to and develop the ethPM ecosystem, [read here](ethpm-developer-guide/ethpm-questions-and-support.md#whats-the-best-way-to-contribute).
+ethPM started out as the brainchild of Tim Coulter and Piper Merriam. Since its inception, it has undergone a breaking update from v1 to v2 in 2018. Currently, v2 tooling and support across libraries is still under development. If you would like to help contribute to and develop the ethPM ecosystem, [read here](ethpm-developer-guide/ethpm-questions-and-support.md#whats-the-best-way-to-contribute).
 

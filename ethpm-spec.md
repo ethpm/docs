@@ -53,7 +53,7 @@ JSON object containing metadata for your package. Possible options include..
 
 ## "contract\_types"
 
-A field containing all of the contract types defined in a manifest. A contract type can be thought of as the fundamental unit of an ethPM package. Two contracts are of the same contract type if they have the same bytecode. The `"contract_types"` field contains the following properties for a defined type.
+A field containing all of the contract types defined in a manifest. A contract type is the fundamental unit of an ethPM package, and maps 1-to-1 every defined contract in Solidity \(`contract ContractName {}`\).  Two contracts are of the same contract type if they have the same bytecode. For each contract type in `"contract_types"` ,  packages have the option to include the following properties
 
 * `"contract_name"`
 * `"deployment_bytecode"`
