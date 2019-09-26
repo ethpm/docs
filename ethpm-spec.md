@@ -4,7 +4,7 @@ The [ethPM-Spec](http://ethpm.github.io/ethpm-spec/package-spec.html) defines th
 
 The formal definition of the ethPM-Spec can be found at its [documentation](http://ethpm.github.io/ethpm-spec/). Below is a brief overview of the different fields you can define in an ethPM manifest to capture the idea of your smart contract\(s\).
 
-#### "package\_name" \(required\)
+## "package\_name" \(required\)
 
 The name of your ethPM package. Must conform to regex: `^[a-z][a-z0-9_-]{0,255}$`
 
@@ -17,21 +17,21 @@ The name of your ethPM package. Must conform to regex: `^[a-z][a-z0-9_-]{0,255}$
   * `_mypackage`
   * `wallet.123`
 
-#### "version" \(required\)
+## "version" \(required\)
 
-The version of your ethPM package. ethPM does not enforce a specific versioning scheme, but using [semver](https://semver.org/) is strongly encouraged. 
+The version of your ethPM package. ethPM does not enforce a specific versioning scheme, but using [semver](https://semver.org/) is strongly encouraged.
 
 * `"1.0.0"`
 * `"2.0.0b3"`
 * `"09.07.2019"`
 
-#### "manifest\_version" \(required\)
+## "manifest\_version" \(required\)
 
 The ethPM version of your manifest. Currently, ethPM tooling only supports v2 of the ethPM spec.
 
 * `"2"`
 
-#### "meta"
+## "meta"
 
 JSON object containing metadata for your package. Possible options include..
 
@@ -41,15 +41,17 @@ JSON object containing metadata for your package. Possible options include..
 * `"keywords": ["solidity", "ethPM", "wallet"]`
 * `"links": {`
 
-      `"documentation": "readthedocs.com",`
+  ```text
+  `"documentation": "readthedocs.com",`
 
-      `"repository": "github.com",`
+  `"repository": "github.com",`
 
-      `"website": "wallet.com"`
+  `"website": "wallet.com"`
+  ```
 
   `}`
 
-#### "contract\_types"
+## "contract\_types"
 
 A field containing all of the contract types defined in a manifest. A contract type can be thought of as the fundamental unit of an ethPM package. Two contracts are of the same contract type if they have the same bytecode. The `"contract_types"` field contains the following properties for a defined type.
 
@@ -60,13 +62,13 @@ A field containing all of the contract types defined in a manifest. A contract t
 * `"natspec"`
 * `"compiler"`
 
-#### "sources"
+## "sources"
 
 This field contains content-addressed URIs for smart contracts composing the contract types defined in a manifest. Keys must be relative filesystem paths beginning with a `./`. Values can be either the entire source contract, inlined as a single string `or` a content-addressed URI where the source contract can be found.
 
 While the `sources` field must contain all smart contracts necessary to compile the defined `contract_types` in the manifest, the `sources` field is not limited to just smart contracts, and can contain deployment scripts or other files that would be useful to interact with the package's smart contract idea.
 
-#### "deployments"
+## "deployments"
 
 This field contains the deployment data for instances of deployed contract types. This field can contain references to contract deployments on different blockchains. [Blockchain URIs](uris.md#blockchain-uris) are used to distinguish between the different blockchain networks. For each deployment, the following fields are available.
 
@@ -77,7 +79,7 @@ This field contains the deployment data for instances of deployed contract types
 * `"runtime_bytecode"`
 * `"compiler"`
 
-#### "build\_dependencies"
+## "build\_dependencies"
 
 Content-addressed URIs for any ethPM packages that a manifest depends upon.
 
