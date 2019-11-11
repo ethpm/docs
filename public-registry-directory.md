@@ -4,6 +4,7 @@
 
 | Description | Registry URI | Maintainer |
 | :--- | :--- | :--- |
+| eth2 contracts \([explore](http://explorer.ethpm.com/browse/mainnet/eth2.snakecharmers.eth)\) | `erc1319://0x8313184faF8EF35859664f1bC682D8dAE6497590:1` - \(ENS: `eth2.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
 | erc20 tokens \([explore](http://explorer.ethpm.com/browse/mainnet/erc20.snakecharmers.eth)\) | `erc1319://0x16763EaE3709e47eE6140507Ff84A61c23B0098A:1` - \(ENS: `erc20.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
 | erc721 tokens \([explore](http://explorer.ethpm.com/browse/mainnet/erc721.snakecharmers.eth)\) | `erc1319://0x0003225cAe41c6b5c43A098d7A9e1a203F3f489F:1` - \(ENS: `erc721.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
 | ens contracts \([explore](http://explorer.ethpm.com/browse/mainnet/ens.snakecharmers.eth)\) | `erc1319://0x808B53bF4D70A24bA5cb720D37A4835621A9df00:1` - \(ENS: `ens.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
