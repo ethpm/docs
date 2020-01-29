@@ -15,15 +15,15 @@ Content-addressed URIs are used to ensure the immutability of each package relea
 
 #### Registry URIs
 
-A registry URI is used to specify an on-chain registry or a specific release on a registry.
+A registry URI is used to specify an on-chain registry or a specific release on a registry. Registry URIs may use the scheme `ethpm` or `erc1319`. All versions in a Registry URI must  properly escape all URL reserved characters.
 
-`erc1319://[CONTRACT_ADDRESS]:[CHAIN_ID]`
+`ethpm://[CONTRACT_ADDRESS]:[CHAIN_ID]`
 
-* ex: `erc1319://0x6b5DA3cA4286Baa7fBaf64EEEE1834C7d430B729:1`
+* ex: `ethpm://0x6b5DA3cA4286Baa7fBaf64EEEE1834C7d430B729:1`
 
-`erc1319://[CONTRACT_ADDRESS]:[CHAIN_ID]/[PACKAGE_NAME]?version=[PACKAGE_VERSION]`
+`ethpm://[CONTRACT_ADDRESS]:[CHAIN_ID]/[PACKAGE_NAME]@[PACKAGE_VERSION]`
 
-* ex:`erc1319://0x6b5DA3cA4286Baa7fBaf64EEEE1834C7d430B729:1/owned?version=1.0.0`
+* ex:`ethpm://0x6b5DA3cA4286Baa7fBaf64EEEE1834C7d430B729:1/owned@1.0.0`
 
 #### Blockchain URIs
 
