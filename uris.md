@@ -15,7 +15,7 @@ Content-addressed URIs are used to ensure the immutability of each package relea
 
 #### Registry URIs
 
-A registry URI is used to specify an on-chain registry or a specific release on a registry. Registry URIs may use the scheme `ethpm` or `erc1319`. All versions in a Registry URI must  properly escape all URL reserved characters.
+A registry URI is used to specify an on-chain registry or a specific release on a registry. Registry URIs may use the scheme `ethpm` or `erc1319`. All versions in a Registry URI must  properly escape all URL reserved characters. `CHAIN_ID` is optional - and if not included, defaults to `1` \(eg. mainnet\).
 
 `ethpm://[CONTRACT_ADDRESS]:[CHAIN_ID]`
 
