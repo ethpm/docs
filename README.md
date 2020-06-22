@@ -43,17 +43,17 @@ The bare minimum ethPM manifest defines three fields.
 
 ```bash
 {
-    "package_name": "myPackage",
-    "manifest_version": "2",
-    "version": "1.0.0"
+    "name": "myPackage",
+    "version": "1.0.0",
+    "manifest": "ethpm/3"
 }
 ```
 
-Of course, this manifest does not represent a very useful package, so it is up to the creator of each manifest to include whatever `contract_types`, `sources`, `deployments`, `meta` \(data\) or `build_dependencies` that are necessary to compose the desired smart contract idea.
+Of course, this manifest does not represent a very useful package, so it is up to the creator of each manifest to include whatever `contractTypes`, `sources`, `deployments`, `compilers`, `meta` \(data\) or `buildDependencies` that are necessary to compose the desired smart contract idea.
 
 Manifests may live on disk, but are intended to be produced and consumed programmatically and uploaded directly to a content-addressable storage network \(e.g. [IPFS](https://ipfs.io/)\).
 
 #### ethPM's history
 
-ethPM started out as the brainchild of Tim Coulter and Piper Merriam. Since its inception, it has undergone a breaking update from v1 to v2 in 2018. Currently, v2 tooling and support across libraries is still under development. If you would like to help contribute to and develop the ethPM ecosystem, [read here](ethpm-developer-guide/ethpm-questions-and-support.md#whats-the-best-way-to-contribute).
+ethPM started out as the brainchild of Tim Coulter and Piper Merriam. Since its inception, it has undergone a breaking update from v1 to v2 in 2018, and another breaking update from v2 to v3 in 2020. The goals of these updates were to improve the specification to facilitate better cross-compatibility and advanced use-cases for ethPM packages. Currently, v3 tooling and support across libraries is still under development. If you would like to help contribute to and develop the ethPM ecosystem, [read here](ethpm-developer-guide/ethpm-questions-and-support.md#whats-the-best-way-to-contribute).
 

@@ -6,11 +6,11 @@ Nick Gnidan from Truffle wrote a beautiful [blog](https://medium.com/coinmonks/e
 
 #### Why isn't there one central registry?
 
-While having a single, centralized registry can be convenient for discovering new packages, there are some downsides, such as a limited feature set and maintenance overhead. ethPM v2 uses a federated registry model to overcome these limitations. In a world where code controls large amounts of money, malicious packages pose a serious threat. Forcing package authors to deploy and maintain their own authorized registry minimizes the chance that a malicious release finds its way into a popular package. Furthermore, the overhead of maintaining a central registry is significant, and more sustainable if distributed amongst package authors. Finally, defining a standard which can be extended allows devs to write custom logic into their package registry to achieve whatever goal they have in mind allows for new ideas to be experimented with and bloom.
+While having a single, centralized registry can be convenient for discovering new packages, there are some downsides, such as a limited feature set and maintenance overhead. ethPM v3 uses a federated registry model to overcome these limitations. In a world where code controls large amounts of money, malicious packages pose a serious threat. Forcing package authors to deploy and maintain their own authorized registry minimizes the chance that a malicious release finds its way into a popular package. Furthermore, the overhead of maintaining a central registry is significant, and more sustainable if distributed amongst package authors. Finally, defining a standard which can be extended allows devs to write custom logic into their package registry to achieve whatever goal they have in mind allows for new ideas to be experimented with and bloom.
 
-#### What about ethPM v1 packages?
+#### What about ethPM v1 or v2 packages?
 
-ethPM v2 made breaking changes from ethPM v1, so unfortunately ethPM v1 packages are no longer supported by the majority of ethPM tooling.
+ethPM v3 made breaking changes from ethPM v2, so unfortunately ethPM v1 and v2 packages are no longer supported by the majority of ethPM tooling. However, upgrading a v1 or v2 package to v3 is simple with the ethpm-cli.
 
 #### What about my IPFS assets?
 
