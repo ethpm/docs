@@ -4,13 +4,7 @@
 
 | Description | Registry URI | Maintainer |
 | :--- | :--- | :--- |
-| eth2 contracts \([explore](http://explorer.ethpm.com/browse/mainnet/eth2.snakecharmers.eth)\) | `erc1319://0x8313184faF8EF35859664f1bC682D8dAE6497590:1` - \(ENS: `eth2.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
-| erc20 tokens \([explore](http://explorer.ethpm.com/browse/mainnet/erc20.snakecharmers.eth)\) | `erc1319://0x16763EaE3709e47eE6140507Ff84A61c23B0098A:1` - \(ENS: `erc20.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
-| erc721 tokens \([explore](http://explorer.ethpm.com/browse/mainnet/erc721.snakecharmers.eth)\) | `erc1319://0x0003225cAe41c6b5c43A098d7A9e1a203F3f489F:1` - \(ENS: `erc721.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
-| ens contracts \([explore](http://explorer.ethpm.com/browse/mainnet/ens.snakecharmers.eth)\) | `erc1319://0x808B53bF4D70A24bA5cb720D37A4835621A9df00:1` - \(ENS: `ens.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
-| multisig contracts \([explore](http://explorer.ethpm.com/browse/mainnet/multisig.snakecharmers.eth)\) | `erc1319://0x042071AE280044Ba00B655cB9eC300287f0dE898:1` - \(ENS: `multisig.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
-| dappsys contracts \([explore](http://explorer.ethpm.com/browse/mainnet/dappsys.snakecharmers.eth)\) | `erc1319://0x9c511b0Df4F96129b769b6F9E7Ac818E477714Dd:1` - \(ENS: `dappsys.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
-| maker contracts \([explore](http://explorer.ethpm.com/browse/mainnet/maker.snakecharmers.eth)\) | `erc1319://0xCfa9b670BdAc8882F7a886161B11bE60889f223c:1` - \(ENS: `maker.snakecharmers.eth`\) | Nick Gheorghita \(ethPM\) |
+| sample libraries | `ethpm://libraries.ethpm.eth:3` | ethpm |
 
-If you maintain a registry and would like to list it here for the community to use, feel free to open a pr - or drop us a note on the [ethPM Gitter channel](https://gitter.im/ethpm/Lobby) and we'll add it here.
+If you maintain a registry and would like to list it here for the community to use, feel free to open a pr - or drop us a note on the [ethPM Gitter channel](https://gitter.im/ethpm/Lobby) and we'll add it for you.
 
